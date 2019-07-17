@@ -87,12 +87,22 @@ body {
     vertical-align: bottom
 }
 
-.col-1-of-3{
+.col-1-of-4{
     float: left;
     background-color: #a5a4a4;
-    width: 33%;
+    width: 25%;
+    height: 60rem;
     padding: 3rem 2rem 8rem 4rem;
-    border: .5px solid #949494;
+   
+}
+
+.col-2-of-4 {
+    float: left;
+    background-color: #a5a4a4;
+    width: 50%;
+    height: 60rem;
+    
+    
 }
 
 .time{
@@ -120,7 +130,26 @@ body {
     font-weight: lighter;
 }
 .arrow-back{
-    display: flex;
-    background-color: #383838;
-    
+    margin-top: 10rem;
+    width: 10%;
+    background-color: #7e7b7b;
+    padding: .8rem;
+    margin-right: auto;
+}
+
+
+.col-2-of-3{
+    float: left;
+    background-color: #a5a4a4;
+    width: 66%;
+    padding: 1rem;
+    border: .5px solid #949494;
+}
+
+
+
+.fox-image {
+    margin: 1rem 25rem;
+    height: 20rem;
+    filter: grayscale(100%);
 }
