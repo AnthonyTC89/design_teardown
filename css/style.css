@@ -86,3 +86,41 @@ body {
 .arrow {
     vertical-align: bottom
 }
+
+.col-1-of-3{
+    float: left;
+    background-color: #a5a4a4;
+    width: 33%;
+    padding: 3rem 2rem 8rem 4rem;
+    border: .5px solid #949494;
+}
+
+.time{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #797878;
+}
+.title{
+    text-decoration: underline;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.author{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #616060;
+    margin: 2rem auto;
+}
+.text{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.arrow-back{
+    display: flex;
+    background-color: #383838;
+    
+}
