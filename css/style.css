@@ -26,31 +26,63 @@ body {
 
 }   
 
-.nav-bar{
+.nav-bar {
     display: flex;
     flex-direction: row;
     align-content: space-between;
     justify-content: center;
-    margin: 1rem auto;
+    height: 15rem;
     background-color: #383838;
     color: white;
+    font-size: 2rem;
+    font-weight: 600;
+   
+  
 }
 
-.logo{
-    padding: 4rem 2rem 6rem 4rem;
-    background-color: #696969;
-    width: 20rem;
+.nav-link {
+    width: 12%;
+    margin: auto 3rem;
+   
 }
-.nav-link{
-    padding: 4rem 3rem;
-    background-color: #696969;
-    width: 15rem;
+
+.nav-link:last-child {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    background-color: gray;
 }
-.nav-link:hover{
-    color: black;
+
+.row {
+   
 }
-.search{
-    padding: 4rem 2rem 6rem 4rem;
-    background-color: #696969;
-    width: 20rem;
+.article {
+    height: 60rem;
+    padding: 8rem 10rem;
+    border: 1px solid #777;
+    float: left;
+    width: 50%;
+    font-size: 3rem;
+    color:white;
+    background-color: gray;
+}
+
+.comment {
+    float: right;
+    margin-bottom: 1rem;
+    width:5rem;
+    height: 2rem;
+    background-color: rgb(175, 167, 167);
+}
+
+.article-uls {
+    display: inline-flex;
+}
+.list {
+    margin-right: 5rem;
+    list-style: none;
+}
+
+.arrow {
+    vertical-align: bottom
 }
