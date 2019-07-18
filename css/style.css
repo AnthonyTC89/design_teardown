@@ -26,6 +26,9 @@ body {
 
 }
 
+button {
+    cursor: pointer;
+}
 h1, h2, h3 , h4 ,h5{
     font-weight: 600;
 }
@@ -162,17 +165,18 @@ h1, h2, h3 , h4 ,h5{
 }
 
 .shotter {
-    background-color: #3d3c3c;
+    background-color: #424141;
     position: absolute;
-    margin-right: 8rem;
+    left: 50%;
+    transform: translateX(-50%); 
     text-align: center;
     border-radius: 10px;
-    margin-top:2rem;
+    margin-top:8rem;
 
 }
 
 .shotter>h2 {
-    padding: 5rem;
+    padding: 8rem;
 }
 
 .shotter button{
@@ -206,4 +210,57 @@ h1, h2, h3 , h4 ,h5{
     border: none;
     background-color: #383838;  
     color: white;
+}
+
+.big-banner {
+    background-color: #727272;
+    width: 100%;
+    border-radius: 10px;
+    height: 100vh;
+    color:white;
+    text-align: center;
+}
+.big-banner h2 {
+    margin: 2rem 0;
+}
+
+.big-banner button {
+    border-radius: 10px;
+    border: none;
+    padding: 2rem 10rem;
+    color: white;
+    background-color: #5a5858;
+    margin-top: 2rem
+}
+
+.big-banner-text{
+    transform: translateX(50%);
+    padding: 8rem 5rem;
+    width: 50%;
+    line-height: 2.5;
+    float: left;
+    
+}
+
+.person-big-banner {
+    width: 100%;
+    background-color: rgb(160, 156, 156);
+    padding: 5rem 1rem 3rem 2rem;
+    height: 30rem;
+}
+
+.image {
+    margin-left:2rem;
+    margin-right: 5rem;
+    background-color: #383838;
+    width: 20rem;
+    height: 20rem;
+    float: left;
+    border-radius: 4px;
+    transform: rotate(-10deg);
+    box-shadow: 5px 10px 10px 3px grey;
+}
+
+.image:hover {
+    transform: rotate(0);
 }
