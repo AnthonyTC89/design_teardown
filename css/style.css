@@ -123,6 +123,7 @@ h1, h2, h3 , h4 ,h5{
     background-color: #727272;
     padding: 3rem;
     border-radius: 10px;
+    position: relative;
 }
 
 .news-blog:nth-child(5) {
@@ -136,6 +137,18 @@ h1, h2, h3 , h4 ,h5{
 .news-blog>div{
     display: inline;
 }
+
+.p-friend{
+    font-style: italic;
+    margin-left: 8rem;
+}
+
+.shotter p {
+    font-style: normal;
+    margin: 0 2rem;
+
+}
+
 .title{
     margin: .7rem auto 1.5rem auto;
     text-decoration: underline;
@@ -149,12 +162,26 @@ h1, h2, h3 , h4 ,h5{
 }
 
 .shotter {
-   
+    background-color: #3d3c3c;
+    position: absolute;
+    margin-right: 8rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-top:2rem;
 
 }
 
 .shotter>h2 {
     padding: 5rem;
+}
+
+.shotter button{
+    margin: 2rem auto;
+    background-color: #868686;
+    padding: 1rem 4rem;
+    border-radius: 10px;
+    border:none;
+    text-transform: uppercase;
 }
 
 .fox-image {
