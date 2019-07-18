@@ -106,3 +106,33 @@ body {
     font-size: 5rem;
     margin: 2rem 0;
 }
+
+.news{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60rem;
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+
+.news-blog{
+    background-color: #727272;
+    padding: 3rem;
+}
+.news-blog:last-child{
+    background-color: #b1b1b1;
+}
+.news-blog>div{
+    display: inline;
+}
+.title{
+    margin: .7rem auto 1.5rem auto;
+    text-decoration: underline;
+}
+.author{
+    margin-bottom: 2rem;
+    
+}
+.author span{
+    text-decoration: underline;
+}
