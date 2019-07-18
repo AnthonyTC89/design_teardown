@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: black;
@@ -53,103 +53,56 @@ body {
     background-color: gray;
 }
 
-.row {
-   
-}
-.article {
-    height: 60rem;
-    padding: 8rem 10rem;
-    border: 1px solid #777;
-    float: left;
-    width: 50%;
-    font-size: 3rem;
+.miss {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60rem 60rem;
     color:white;
-    background-color: gray;
 }
 
-.comment {
-    float: right;
-    margin-bottom: 1rem;
-    width:5rem;
-    height: 2rem;
-    background-color: rgb(175, 167, 167);
+/* Articles   */
+
+.article1 {
+    background-color: #777;
+}
+.article2 {
+    background-color: rgb(160, 158, 158);
 }
 
-.article-uls {
+.list {
+    list-style: none;
+    
+}
+
+.article-uls    {
     display: inline-flex;
 }
 .list {
-    margin-right: 5rem;
-    list-style: none;
+    margin-right: 10rem;
 }
 
-.arrow {
-    vertical-align: bottom
+
+
+.article-text {
+    padding: 15rem 10rem;
 }
 
-.col-1-of-4{
-    float: left;
-    background-color: #a5a4a4;
-    width: 25%;
-    height: 60rem;
-    padding: 3rem 2rem 8rem 4rem;
-   
-}
-
-.col-2-of-4 {
-    float: left;
-    background-color: #a5a4a4;
-    width: 50%;
-    height: 60rem;
-    
-    
-}
-
-.time{
+.miss-header{
     margin-top: 2rem;
-    font-size: 1.5rem;
-    font-weight: 200;
-    text-transform: uppercase;
-    color: #797878;
-}
-.title{
-    text-decoration: underline;
-    font-size: 2.5rem;
-    font-weight: bold;
-    
-}
-.author{
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-decoration: underline;
-    color: #616060;
-    margin: 2rem auto;
-}
-.text{
-    font-size: 2rem;
-    font-weight: lighter;
-}
-.arrow-back{
-    margin-top: 10rem;
-    width: 10%;
-    background-color: #7e7b7b;
-    padding: .8rem;
-    margin-right: auto;
+    position: absolute;
+    color:white;
+    left:50%;
+    text-align: center;
+    transform: translateX(-50%);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.199);
 }
 
-
-.col-2-of-3{
-    float: left;
-    background-color: #a5a4a4;
-    width: 66%;
+.miss-header>h2{
+    background-color: #585656;
     padding: 1rem;
-    border: .5px solid #949494;
 }
 
-
-
-.fox-image {
-    margin: 1rem 25rem;
-    height: 20rem;
-    filter: grayscale(100%);
+.article-header{
+    font-size: 5rem;
+    margin: 2rem 0;
 }
