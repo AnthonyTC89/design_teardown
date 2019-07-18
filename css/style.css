@@ -224,7 +224,7 @@ h1, h2, h3 , h4 ,h5{
     margin: 2rem 0;
 }
 
-.big-banner button {
+.btn {
     border-radius: 10px;
     border: none;
     padding: 2rem 10rem;
@@ -266,9 +266,11 @@ h1, h2, h3 , h4 ,h5{
 }
 
 .blogs{
+    margin: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 30rem 30rem;
+    grid-gap: 10px;
     
 }
 
@@ -276,6 +278,7 @@ h1, h2, h3 , h4 ,h5{
     background-color: #5a5858;
     padding: 5rem;
     display: grid;
+    border-radius: 10px;
 }
 
 .sml-image{
@@ -284,9 +287,7 @@ h1, h2, h3 , h4 ,h5{
     grid-column: 1;
 }
 
-.blog:nth-child(1), .blog:nth-child(4){
-    background-color: #a8a8a8;
-}
+
 
 .texts{
     grid-column: 2;
@@ -301,6 +302,40 @@ h1, h2, h3 , h4 ,h5{
     border:none;
     padding:2rem;
     left:50%;
-    transform: translateX(-50%) translateY(900%);
+    transform: translateX(-50%) translateY(950%);
     width: 20rem;
+}
+
+.big-banner-2 {
+    width: 100%;
+    height: 40rem;
+    padding: 5rem;
+    padding-left: 8rem;
+    background-color: #727272;
+    font-size: 3rem;
+    color: white;
+}
+
+.guides{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80rem;
+    grid-gap: 10px;
+    font-size: 2.5rem;
+    margin:1rem;
+}
+
+.guide-block {
+    background-color: #868686;
+    padding: 2rem 4rem;
+    border-radius: 5px;
+}
+
+.guide-block h2 {
+    font-size: 6rem
+}
+.guide-block ul {
+    text-decoration: underline;
+    margin-left: 6rem;
+    line-height: 2;
 }
