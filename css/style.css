@@ -82,14 +82,12 @@ h1, h2, h3 , h4 ,h5{
 
 .list {
     list-style: none;
+    margin-right: 10rem;
     
 }
 
 .article-uls    {
     display: inline-flex;
-}
-.list {
-    margin-right: 10rem;
 }
 
 
