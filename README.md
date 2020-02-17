@@ -11,6 +11,8 @@
     ·
     <a href="https://github.com/AnthonyTC89/design_teardown/issues">Request Feature</a>
   </p>
+  <br>
+  <img align="center" scr="https://raw.githubusercontent.com/AnthonyTC89/design_teardown/develop/screenshots/01.png" alt="screenshot">
 </p>
 
 <!-- TABLE OF CONTENTS -->
